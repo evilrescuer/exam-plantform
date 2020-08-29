@@ -1,6 +1,6 @@
 package exam.paperContext.domain.service;
 
-import exam.paperContext.domain.model.paper.Paper.BlankQuiz;
+import exam.paperContext.domain.model.blankquiz.BlankQuiz;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

@@ -53,4 +53,8 @@ public class PaperApplicationService {
         return command.getQuizzes().stream().map(quiz -> new BlankQuizDto(quiz.getQuizId(),
                 quiz.getScore())).collect(toList());
     }
+
+    private List<BlankQuizDto> getBlankQuizzesByPaperId(PaperId paperId) {
+        return blankQuizClient.getBlankQuizzesByPaperId(paperId);
+    }
 }
